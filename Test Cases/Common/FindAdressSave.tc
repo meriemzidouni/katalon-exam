@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FindAdressSave</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>828a576f-1724-40e4-a8df-0375aa89ef4b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62c216b3-b72d-4b17-84ea-f3423e1ee377</id>
+      <masked>false</masked>
+      <name>alias</name>
+   </variable>
+</TestCaseEntity>

@@ -13,20 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-currentUrl = ''
-
-try {
-    currentUrl = WebUI.getUrl()
-}
-catch (StepFailedException e) {
-    // browser not open
-    WebUI.openBrowser(url)
-
-    WebUI.maximizeWindow()
-
-    currentUrl = WebUI.getUrl()
-} 
-
 WebUI.callTestCase(findTestCase('Common/GoToUrl'), [('url') : GlobalVariable.homeUrl + '?controller=addresses'])
 
 WebUI.click(findTestObject('Object Repository/Page_Addresses - My Store/Page_Addresses - My Store/span_Add a new address'))
@@ -44,15 +30,11 @@ WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_A
 
 WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__alias'), AliasRef)
 
-adressExist = WebUI.callTestCase(findTestCase('Common/FindAddress'), [('alias') : AliasRef], null)
+saveButton = WebUI.callTestCase(findTestCase('Common/FindAddress'), [('alias') : AliasRef], null)
 
-if (adressExist) {
+if (saveButton) {
+    WebUI.click(saveButton)
+
     WebUI.acceptAlert()
-} else {
-    WebUI.click(findTestObject('Page_Addresses - My Store/Page_Address - My Store/span_Save'))
 }
-
-WebUI.acceptAlert()
-
-WebUI.click(findTestObject('Page_Addresses - My Store/Page_Address - My Store/span_Save'))
 
