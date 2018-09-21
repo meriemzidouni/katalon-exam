@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MyTestCase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae85605d-ed02-49e6-a8c0-408fb18eb39b</testCaseGuid>
+   <variable>
+      <defaultValue>'http://automationpractice.com/index.php'</defaultValue>
+      <description></description>
+      <id>1b6d8fe7-4738-4077-a42a-097cae619cda</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>
