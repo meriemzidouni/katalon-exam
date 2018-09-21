@@ -5,4 +5,46 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>46ae6bc8-5906-4545-aa71-8cf9d2aac1bd</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a18bcd1a-cba1-4e45-9b82-7cba89ad05be</id>
+      <masked>false</masked>
+      <name>Adress</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b181511b-393a-4bfa-83f5-b8f392257c1d</id>
+      <masked>false</masked>
+      <name>City</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>77e178da-0282-4dcf-b8f4-8da5fdc1b56d</id>
+      <masked>false</masked>
+      <name>State</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dc30c9a9-6c68-4145-9821-870b747a2c71</id>
+      <masked>false</masked>
+      <name>ZipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1aa6bd2a-8128-416c-9c16-fe60184eb404</id>
+      <masked>false</masked>
+      <name>HomePhone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>79f4d34f-5a65-43ed-8e6a-371959d56ed9</id>
+      <masked>false</masked>
+      <name>AliasRef</name>
+   </variable>
 </TestCaseEntity>

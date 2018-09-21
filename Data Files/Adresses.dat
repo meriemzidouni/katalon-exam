@@ -8,37 +8,39 @@
    <dataFileGUID>cc33f879-26f8-4750-a515-68c03be24c3d</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>rue+katalon bordeaux 9 33333 06060606060 Work</data>
+   <data>rue+katalon bordeaux 9 33333 0606060606 Work</data>
    <data>street+address City 4 33520 0999999999 Home</data>
+   <data>rue+katalon bruges 9 33333 0606065879 Work1</data>
+   <data>rue+katalon bouscat 4 65246 0568716974 Home1</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>Adress</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>City</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>State</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>ZipCode</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
       <name>HomePhone</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>5</columnIndex>
       <name>AliasRef</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

@@ -24,18 +24,18 @@ WebUI.callTestCase(findTestCase('Common/GoToUrl'), [('url') : GlobalVariable.hom
 
 WebUI.click(findTestObject('Object Repository/Page_Addresses - My Store/Page_Addresses - My Store/span_Add a new address'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__address1'), 'rue katalon')
+WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__address1'), Adress)
 
-WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__city'), 'bordeaux')
+WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__city'), City)
 
 WebUI.selectOptionByValue(findTestObject('Page_Addresses - My Store/Page_Address - My Store/select_-AlabamaAlaskaArizonaAr'), 
-    '9', true)
+    State, true)
 
-WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__postcode'), '33333')
+WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__postcode'), ZipCode)
 
-WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__phone'), '06060606060')
+WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__phone'), HomePhone)
 
-WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__alias'), 'Work')
+WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__alias'), AliasRef)
 
 WebUI.click(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/span_Save'))
 
