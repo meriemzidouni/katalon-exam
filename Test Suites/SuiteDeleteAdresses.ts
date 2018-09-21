@@ -4,7 +4,7 @@
    <name>SuiteDeleteAdresses</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-21T12:05:39</lastRun>
+   <lastRun>2018-09-21T14:44:46</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

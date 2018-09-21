@@ -47,4 +47,11 @@
       <masked>false</masked>
       <name>AliasRef</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ac3e949f-81d4-4b97-a037-bcc9c0a46f08</id>
+      <masked>false</masked>
+      <name>alias</name>
+   </variable>
 </TestCaseEntity>

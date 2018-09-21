@@ -15,6 +15,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Common/GoToUrl'), [('url') : GlobalVariable.homeUrl + '?controller=addresses'])
 
+deleteButton = WebUI.callTestCase(findTestCase('Common/FindAddress'), [('alias') : AliasRef], null)
+
+assert deleteButton == null
+
 WebUI.click(findTestObject('Object Repository/Page_Addresses - My Store/Page_Addresses - My Store/span_Add a new address'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__address1'), Adress)
@@ -30,11 +34,5 @@ WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_A
 
 WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__alias'), AliasRef)
 
-saveButton = WebUI.callTestCase(findTestCase('Common/FindAddress'), [('alias') : AliasRef], null)
-
-if (saveButton) {
-    WebUI.click(saveButton)
-
-    WebUI.acceptAlert()
-}
+WebUI.click(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/span_Save'))
 

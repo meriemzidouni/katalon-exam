@@ -6,42 +6,42 @@
    <comment></comment>
    <testCaseGuid>21fca28d-b446-466e-b0e8-26cbf9921537</testCaseGuid>
    <variable>
-      <defaultValue>'rue katalon'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>03c3626a-4ce0-4644-957b-f9a780b82e9c</id>
       <masked>false</masked>
       <name>Adress</name>
    </variable>
    <variable>
-      <defaultValue>'city'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>d2b6045b-4a2e-4aed-bc85-a83c7b91eec5</id>
       <masked>false</masked>
       <name>City</name>
    </variable>
    <variable>
-      <defaultValue>'2'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>da2b4e54-e72d-46e3-82c8-f00318582b11</id>
       <masked>false</masked>
       <name>State</name>
    </variable>
    <variable>
-      <defaultValue>'32132'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>ccd6e62d-1134-46f7-a0ca-9b23fd58cd42</id>
       <masked>false</masked>
       <name>ZipCode</name>
    </variable>
    <variable>
-      <defaultValue>'02321446565'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>5e45d63e-ff4c-474e-a218-f7bbeabb300d</id>
       <masked>false</masked>
       <name>HomePhone</name>
    </variable>
    <variable>
-      <defaultValue>'Work33'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>28eec02c-ff0d-4bd8-b9cf-57d893f33504</id>
       <masked>false</masked>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>SuiteAddAdresses</name>
+   <name>TestSuiteAdresses2</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-21T14:40:25</lastRun>
+   <lastRun>2018-09-21T14:43:29</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>4a5d22d8-6e61-4327-bfcb-4adcbc9ff672</testSuiteGuid>
+   <testSuiteGuid>3570427f-310a-4dee-9f91-4eb700212ba7</testSuiteGuid>
    <testCaseLink>
-      <guid>1f98d5d9-0bad-471f-a5ce-6d4eb35088a7</guid>
+      <guid>de384aa1-dcad-4942-8ddc-659e3914766a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Home/Add address</testCaseId>
+      <testCaseId>Test Cases/Home/Add Address2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>87dede4e-242d-4d55-a14a-c6ae5e863d98</id>
+         <id>bd06b78f-496c-4c56-adbe-c22f72322e15</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -26,46 +26,46 @@
          <testDataId>Data Files/Adresses</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>87dede4e-242d-4d55-a14a-c6ae5e863d98</testDataLinkId>
+         <testDataLinkId>bd06b78f-496c-4c56-adbe-c22f72322e15</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Adress</value>
-         <variableId>a18bcd1a-cba1-4e45-9b82-7cba89ad05be</variableId>
+         <variableId>03c3626a-4ce0-4644-957b-f9a780b82e9c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>87dede4e-242d-4d55-a14a-c6ae5e863d98</testDataLinkId>
+         <testDataLinkId>bd06b78f-496c-4c56-adbe-c22f72322e15</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>City</value>
-         <variableId>b181511b-393a-4bfa-83f5-b8f392257c1d</variableId>
+         <variableId>d2b6045b-4a2e-4aed-bc85-a83c7b91eec5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>87dede4e-242d-4d55-a14a-c6ae5e863d98</testDataLinkId>
+         <testDataLinkId>bd06b78f-496c-4c56-adbe-c22f72322e15</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>State</value>
-         <variableId>77e178da-0282-4dcf-b8f4-8da5fdc1b56d</variableId>
+         <variableId>da2b4e54-e72d-46e3-82c8-f00318582b11</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>87dede4e-242d-4d55-a14a-c6ae5e863d98</testDataLinkId>
+         <testDataLinkId>bd06b78f-496c-4c56-adbe-c22f72322e15</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>ZipCode</value>
-         <variableId>dc30c9a9-6c68-4145-9821-870b747a2c71</variableId>
+         <variableId>ccd6e62d-1134-46f7-a0ca-9b23fd58cd42</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>87dede4e-242d-4d55-a14a-c6ae5e863d98</testDataLinkId>
+         <testDataLinkId>bd06b78f-496c-4c56-adbe-c22f72322e15</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>HomePhone</value>
-         <variableId>1aa6bd2a-8128-416c-9c16-fe60184eb404</variableId>
+         <variableId>5e45d63e-ff4c-474e-a218-f7bbeabb300d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>87dede4e-242d-4d55-a14a-c6ae5e863d98</testDataLinkId>
+         <testDataLinkId>bd06b78f-496c-4c56-adbe-c22f72322e15</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>AliasRef</value>
-         <variableId>79f4d34f-5a65-43ed-8e6a-371959d56ed9</variableId>
+         <variableId>28eec02c-ff0d-4bd8-b9cf-57d893f33504</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ac3e949f-81d4-4b97-a037-bcc9c0a46f08</variableId>
+         <testDataLinkId>bd06b78f-496c-4c56-adbe-c22f72322e15</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AliasRef</value>
+         <variableId>0c8d5c61-8412-4c4d-8907-ffee7d0fb4ea</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
