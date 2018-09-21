@@ -34,5 +34,5 @@ WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_A
 
 WebUI.setText(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/input__alias'), AliasRef)
 
-WebUI.click(findTestObject('Object Repository/Page_Addresses - My Store/Page_Address - My Store/span_Save'))
+WebUI.click(findTestObject('Page_Addresses - My Store/Page_Address - My Store/span_Save'))
 
