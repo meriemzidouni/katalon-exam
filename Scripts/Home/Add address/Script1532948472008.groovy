@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import net.bytebuddy.implementation.bytecode.constant.NullConstant as NullConstant
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-
+/**/
 WebUI.callTestCase(findTestCase('Common/GoToUrl'), [('url') : GlobalVariable.homeUrl + '?controller=addresses'])
 
 WebUI.click(findTestObject('Object Repository/Page_Addresses - My Store/Page_Addresses - My Store/span_Add a new address'))
